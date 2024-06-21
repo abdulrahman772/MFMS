@@ -1,0 +1,83 @@
+.top_img{
+    border-radius: 50px;
+    border: 10px solid #ffffff69;
+    background-color: #00669b;
+    width: 100px;
+    height: 100px;
+    box-shadow: 3px 3px 1px 10px #fff;
+}
+.top_img img{
+    width: 100%;
+    height: 100%;
+}
+.bac_titel p{
+    color: white;
+    font-size: 30px;
+}
+.bac_titel p span{
+    color: #00669b;
+    font-size: 30px;
+}
+.bac_titel{
+    margin-top: 30px;
+    background-color: #ffffff69;
+    border-top-right-radius: 10px 50%;
+    border-top-left-radius: 90px 50%;
+    border-bottom-right-radius: 100px 50%;
+    border-bottom-left-radius: 10px 50%;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 40px;
+    box-shadow: 3px 3px 1px 10px #fff;
+}
+.bac_titel form{
+    width: 100%;
+    color: white;
+    text-align: center;
+    opacity: 1;
+    padding: 20px;
+    background: transparent;
+}
+.input_login{
+    font-size: 16px;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-bottom: 2px solid #00669b;
+    margin-bottom: 20px;
+    background: transparent;
+    outline: none;
+}
+
+.input_login:hover{
+    transition: .5s;
+    border-bottom: 2px solid white;
+}
+.input_login:focus{
+    border-bottom: 2px solid white;
+}
+form button{
+    font-size: 16px;
+    outline: none;
+    border: none;
+    background: transparent;
+    box-shadow: 3px 3px 1px 5px #00669b;
+    width: 150px;
+    border-radius: 50px;
+}
+form button img{
+    width: 30px;
+    height: 30px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+}
+form button:hover{
+    transition: .5s;
+    box-shadow: 3px 3px 1px 5px white;
+}
+form button:focus{
+    transition: .5s;
+    box-shadow: 3px 3px 1px 5px white;
+}
