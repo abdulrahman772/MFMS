@@ -1,0 +1,71 @@
+@font-face {
+    font-family: myfont;
+    src: url("../fonts/fontmfms.ttf");
+}
+.w3-closenav {position:absolute !important;left:20px!important;top:10px!important;padding:5px !important;}
+.w3-closenav:hover {background-color:transparent !important;color:#ff0;}
+.body_home{
+    font-family: myfont;
+    background: #fff;
+}
+.home_body{
+    padding:0;
+    padding-top: 20px;
+    background:transparent;
+}
+.a_css{
+    border: none;
+    outline: none;
+}
+.a_css:focus{
+    border: none;
+    outline: none;
+}
+::placeholder{
+	font-size: 16px;
+	color:#00669b;
+	padding:5px;
+	font-weight:bolder;
+}
+.allwork{
+    width:150px;
+    height:150px;
+    padding-top: 3px;
+    color: #00669b;
+    margin: 0 0 30px 0;
+    border-radius:100px;
+    background-color:#FFF;
+    box-shadow: 1px 2px 3px 1px #00669b;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    outline: none;
+    border:none;
+}
+.allwork .allicon{
+    width:64px ;
+    height:64px;
+    margin-bottom: 5px;
+    float: top;
+}
+.allwork .allicon img{
+    width:100%;
+    height:100%;
+    border-radius:50px;
+}
+.allwork:hover,.allwork:focus{
+    transition: .9s;
+    border: .5px solid white;
+    box-shadow: 2px 2px 3px 1px #555;
+}
+.colorbb{
+  width: 100%;
+  color: #00669b;
+}
+.colorbb:focus{
+  background-color: #04ADFF;
+}
+.w3-accordion a{
+  width: 100%;
+color: #00669b;
+}
